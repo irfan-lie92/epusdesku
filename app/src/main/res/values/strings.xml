@@ -1,0 +1,71 @@
+<resources>
+    <string name="logo_description">Epusdesku</string>
+    <string name="splash_screen_background">Epusdesku</string>
+    <string name="app_name">EPUSDESKU</string>
+
+    <string name="perpuses_name">Nama Perpusinsi</string>
+    <string name="description">Deskripsi</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="pemustaka_label">Pemustaka : </string>
+    <string name="library_image_description">Gambar perpustakaan</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="dikembangkan_oleh">Dikembangkan Oleh :</string>
+    <string name="irfan_ali">Irfan Ali</string>
+    <string name="ir_vanaly_gmail_com">ir.vanaly@gmail.com</string>
+    <string name="sosmed">Sosmed :</string>
+    <string name="perpustakaan_desa_saat_ini_merupakan_salah_satu_tonggak_ukur_keberhasilan_dalam_program_pembangunan_sumber_daya_manusia_melalui_porgram_transformasi_perpustakaan_berbasis_inklusi_sosial_maka_dikembangkanlah_banyak_sistem_yang_dapat_membantu_peran_perpustkaan_bagi_masyarakat_dengan_aplikasi_epusdesku_ini_mengenalkan_kepada_masyarakat_luas_daftar_perpustakaan_desa_di_kuningan">Perpustakaan Desa saat ini merupakan salah satu tonggak ukur keberhasilan dalam Program Pembangunan Sumber Daya Manusia. Melalui Porgram Transformasi Perpustakaan Berbasis Inklusi Sosial maka dikembangkanlah banyak sistem yang dapat membantu peran perpustkaan bagi masyarakat. Dengan Aplikasi Epusdesku ini mengenalkan kepada masyarakat luas Daftar Perpustakaan Desa di Kuningan.</string>
+    <string name="ig">Instagram</string>
+    <string name="ln">Linkedln</string>
+    <string name="gh">Github</string>
+    <string name="fav_button">fav_button</string>
+    <string name="img_perpus">img_perpus</string>
+    <string name="desa_kelurahan">Desa/Kelurahan:</string>
+    <string name="pemustaka">Pemustaka:</string>
+    <string name="bagikan">Bagikan</string>
+    <string name="tahun">Tahun:</string>
+    <string name="namadesa">#namaDesa</string>
+    <string name="perpustakaan_desa_yang_terletak_di_desa_pasayangan_kecamatan_lebakwangi_kabupaten_kuningan_dengan_akreditasi_perpustakaan_umum_a">Perpustakaan Desa yang terletak di Desa Pasayangan Kecamatan Lebakwangi Kabupaten Kuningan dengan Akreditasi Perpustakaan Umum A.</string>
+    <string name="namaperpustakaan">#namaPerpustakaan</string>
+    <string name="perpus_pemustaka">#pemustaka</string>
+    <string name="perpus_tahun">#tahun</string>
+
+    <string-array name="data_name">
+        <item>Perpustakaan Jendela Dunia</item>
+        <item>Perpustakaan Sinarwaca</item>
+        <item>Perpustakaan Mekarsari Kiwari</item>
+        <item>Perpustakaan Si Windu</item>
+        <item>Perpustakaan Wilatra</item>
+        <item>Perpustakaan Lodaya</item>
+        <item>Perpustakaan Pustaka Ilmu</item>
+        <item>Perpustakaan Wibest</item>
+        <item>Perpustakaan Pelita Hati</item>
+        <item>Perpustakaan Insan Cita</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Perpustakaan Desa yang terletak di Desa Pasayangan Kecamatan Lebakwangi Kabupaten Kuningan dengan Akreditasi Perpustakaan Umum A. </item>
+        <item>Perpustakaan Desa yang terletak di Desa Ragawacana Kecamatan Kramatmulya Kabupaten Kuningan. </item>
+        <item>Peprustakaan Desa yang terletak di Desa Mekarsari Kecamatan Maleber Kabupaten Kuningan. </item>
+        <item>Peprustakaan Kelurahan yang terletak di Kelurahan Winduherang Kecamatan Cigugur Kabupaten Kuningan. </item>
+        <item>Peprustakaan Desa yang terletak di Desa Wilanagara Kecamatan Luragung Kabupaten Kuningan. </item>
+        <item>Peprustakaan Desa yang terletak di Desa Luragungtonggoh Kecamatan Luragung Kabupaten Kuningan. </item>
+        <item>Peprustakaan Desa yang terletak di Desa Garawangi Kecamatan Garawangi Kabupaten Kuningan. </item>
+        <item>Peprustakaan Desa yang terletak di Desa Margamukti Kecamatan Cimahi Kabupaten Kuningan. </item>
+        <item>Peprustakaan Desa yang terletak di Desa Nanggerangjaya Kecamatan Mandirancan Kabupaten Kuningan. </item>
+        <item>Perpustakaan Desa yang terletak di Desa Kertayasa Kecamatan Sindang Agung Kabupaten Kuningan. </item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/pasayangan</item>
+        <item>@drawable/ragawacana</item>
+        <item>@drawable/mekarsari</item>
+        <item>@drawable/winduherang</item>
+        <item>@drawable/wilanagara</item>
+        <item>@drawable/luragungtonggoh</item>
+        <item>@drawable/garawangi</item>
+        <item>@drawable/margamukti</item>
+        <item>@drawable/nanggerangjaya</item>
+        <item>@drawable/kertayasa</item>
+    </integer-array>
+</resources>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primer1"
+    tools:context=".DetailActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="12dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/img_perpus"
+                android:layout_width="208dp"
+                android:layout_height="165dp"
+                android:layout_marginTop="32dp"
+                android:contentDescription="@string/img_perpus"
+                android:elevation="8dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintDimensionRatio="H,16:9"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/pasayangan" />
+
+            <TextView
+                android:id="@+id/tv_perpus_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/namaperpustakaan"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_perpus" />
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/desa_kelurahan"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/tv_perpus_name"
+                app:layout_constraintTop_toBottomOf="@+id/tv_perpus_name"
+                tools:ignore="TextSizeCheck,TextSizeCheck,TextSizeCheck" />
+
+            <TextView
+                android:id="@+id/tv_perpus_desa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/namadesa"
+                app:layout_constraintStart_toEndOf="@+id/nama"
+                app:layout_constraintTop_toBottomOf="@+id/tv_perpus_name" />
+
+            <TextView
+                android:id="@+id/tahun"
+                android:layout_width="117dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/tahun"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/nama"
+                app:layout_constraintTop_toBottomOf="@+id/nama" />
+
+
+            <TextView
+                android:id="@+id/tv_perpus_tahun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/perpus_tahun"
+                app:layout_constraintStart_toEndOf="@+id/tahun"
+                app:layout_constraintTop_toBottomOf="@+id/tv_perpus_desa" />
+
+            <TextView
+                android:id="@+id/pemustaka"
+                android:layout_width="117dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/pemustaka"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/tahun"
+                app:layout_constraintTop_toBottomOf="@+id/tahun" />
+
+            <TextView
+                android:id="@+id/tv_perpus_pemustaka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="4dp"
+                android:text="@string/perpus_pemustaka"
+                app:layout_constraintStart_toEndOf="@+id/pemustaka"
+                app:layout_constraintTop_toBottomOf="@+id/tv_perpus_tahun" />
+
+            <TextView
+                android:id="@+id/tv_perpus_description"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/perpustakaan_desa_yang_terletak_di_desa_pasayangan_kecamatan_lebakwangi_kabupaten_kuningan_dengan_akreditasi_perpustakaan_umum_a"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_perpus_pemustaka"
+                tools:ignore="VisualLintLongText" />
+
+
+            <ImageView
+                android:id="@+id/fav_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="32dp"
+                android:contentDescription="@string/fav_button"
+                android:src="@drawable/vector_favorite_border"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_perpus" />
+
+            <Button
+                android:id="@+id/share_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="36dp"
+                android:text="@string/bagikan"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@+id/tv_perpus_description"
+                app:layout_constraintTop_toBottomOf="@+id/tv_perpus_description" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</ScrollView>
